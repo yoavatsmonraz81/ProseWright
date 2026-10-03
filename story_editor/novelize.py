@@ -10,10 +10,9 @@ form instead of turn form.
 feels; this operator's whole discipline is that it changes only the form. Every
 action, line of dialogue, revelation and outcome in the source has to survive,
 because a manuscript scene the author cannot trust is worth less than the log it
-came from. The same rule applies to heat: novelization renders explicit material
-at exactly the explicitness of the source. Cooling is a later, separate, opt-in
-pass with its own contract — a novelizer that quietly softened things would make
-that contract a lie.
+came from. The same rule applies to tone: novelization neither softens nor
+escalates the source. Changing how a scene reads is restyle's job, done in the
+open as a diff, not something a novelizer slips in on the way.
 
 Voice
 -----
