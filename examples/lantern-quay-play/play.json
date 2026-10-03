@@ -1,0 +1,11 @@
+{
+  "name": "Lantern Quay",
+  "description": "Example player-mode home: one night on a smuggler's quay, three scenes.",
+  "models": {
+    "planner": "claude-sonnet-5-5",
+    "planner_effort": "low",
+    "narrator": "claude-sonnet-5-5",
+    "narrator_effort": "low",
+    "player": "claude-haiku-4-5"
+  }
+}

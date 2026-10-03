@@ -1,0 +1,130 @@
+/* Publication rendering, sourced from ProseWright's own type and paper tokens.
+ * This file is shared by the standalone HTML and Chromium PDF exports. */
+@font-face {
+  font-family: 'Crimson Pro';
+  src: url('../app/public/fonts/crimson-pro/CrimsonPro-var.ttf') format('truetype-variations');
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Crimson Pro';
+  src: url('../app/public/fonts/crimson-pro/CrimsonPro-Italic-var.ttf') format('truetype-variations');
+  font-weight: 200 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Special Elite';
+  src: url('../app/public/fonts/special-elite/SpecialElite-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TT2020 Base';
+  src: url('../app/public/fonts/tt2020/TT2020Base-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TT2020 Base';
+  src: url('../app/public/fonts/tt2020/TT2020Base-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('../app/public/fonts/courier-prime/CourierPrime-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('../app/public/fonts/courier-prime/CourierPrime-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+  --paper: #f2ede1;
+  --paper-lit: #f8f4ea;
+  --paper-edge: #d8cfbc;
+  --desk-lit: #37322a;
+  --ink: #23201a;
+  --ink-faint: #7a7365;
+  --font-novel: 'Crimson Pro', Literata, Georgia, serif;
+  --font-stamp: 'Special Elite', 'Courier New', monospace;
+  --page-measure: 68ch;
+  --shadow-page: 0 1px 0 var(--paper-edge), 0 12px 28px rgba(0, 0, 0, .16);
+}
+
+* { box-sizing: border-box; }
+html { background: var(--desk-lit); }
+body {
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(255, 255, 255, .05), transparent 60%),
+    var(--desk-lit);
+  color: var(--ink);
+  font-family: var(--font-novel);
+  font-size: var(--publication-size, 16px);
+  line-height: var(--publication-leading, 1.75);
+  letter-spacing: var(--publication-tracking, .01em);
+}
+main {
+  width: min(calc(var(--publication-measure, 68ch) + 12ch), calc(100% - 32px));
+  min-height: 100vh;
+  margin: 28px auto 96px;
+  padding: 44px 6ch 64px;
+  background: var(--paper);
+  box-shadow: var(--shadow-page);
+}
+h1 {
+  margin: 3.5em 0 2.25em;
+  break-before: page;
+  text-align: center;
+  font-family: var(--font-stamp);
+  font-size: 1.18em;
+  font-weight: 400;
+  letter-spacing: .08em;
+}
+h1:first-child { margin-top: 0; break-before: auto; }
+p {
+  margin: 0;
+  text-align: justify;
+  text-indent: 2.2em;
+  hyphens: auto;
+}
+h1 + p, hr + p { text-indent: 0; }
+em { font-style: italic; }
+strong { font-weight: 700; }
+hr {
+  width: 40%;
+  margin: 3em auto;
+  border: 0;
+  border-top: 1px solid var(--ink-faint);
+}
+
+@media (max-width: 720px) {
+  body { font-size: 16px; }
+  main { width: 100%; margin: 0; padding: 36px 22px 72px; box-shadow: none; }
+}
+
+@page {
+  size: 6in 9in;
+  margin: .72in .68in .78in;
+  background: #f2ede1; /* Same --paper token as ProseWright, including margins. */
+}
+@media print {
+  :root { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  html, body { background: var(--paper); }
+  body { font-size: 10.75pt; line-height: 1.48; }
+  main { width: auto; min-height: 0; margin: 0; padding: 0; box-shadow: none; }
+  h1 { margin-top: 0; }
+}

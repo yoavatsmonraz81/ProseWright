@@ -1,0 +1,42 @@
+{
+  "schema": "story-editor/dossier@1",
+  "character": "ilse",
+  "label": "Ilse — case file",
+  "portrait": null,
+  "entries": [
+    {
+      "id": "ilse-seed-1",
+      "kind": "state",
+      "text": "Clerk of the harbour ledger; checks everything twice before she believes it.",
+      "from_uid": null,
+      "to_uid": null,
+      "from_msg": null,
+      "to_msg": null,
+      "created": "2026-10-01T09:00:00.000Z",
+      "source": "seed"
+    },
+    {
+      "id": "ilse-seed-2",
+      "kind": "relationship",
+      "text": "Protective of Wren; calls her by name when she is worried.",
+      "from_uid": null,
+      "to_uid": null,
+      "from_msg": null,
+      "to_msg": null,
+      "created": "2026-10-01T09:00:00.000Z",
+      "source": "seed"
+    },
+    {
+      "id": "ilse-seed-3",
+      "kind": "capability",
+      "text": "Proves things by procedure, not intuition.",
+      "from_uid": null,
+      "to_uid": null,
+      "from_msg": null,
+      "to_msg": null,
+      "created": "2026-10-01T09:00:00.000Z",
+      "source": "seed"
+    }
+  ],
+  "open_items": []
+}

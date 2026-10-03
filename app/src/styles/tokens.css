@@ -1,0 +1,62 @@
+/* Design tokens. One theme: paper and ink.
+ *
+ * A typewriter page has no dark mode — the aesthetic is a physical object under
+ * a lamp, and inverting it produces a terminal wearing a costume. The palette is
+ * warm paper, iron-gall ink, red stamp, blue pencil: the four things that ever
+ * touched a manuscript on a desk. */
+
+:root {
+  /* Paper */
+  --paper: #f2ede1;
+  --paper-lit: #f8f4ea;
+  --paper-shade: #e6dfd0;
+  --paper-edge: #d8cfbc;
+  --paper-deep: #cdc3ac;
+
+  /* Chrome — the desk the page sits on */
+  --desk: #2b2721;
+  --desk-lit: #37322a;
+  --desk-line: #453f35;
+  --desk-ink: #cdc3ac;
+  --desk-ink-dim: #8a8175;
+
+  /* Ink */
+  --ink: #23201a;
+  --ink-soft: #4b463c;
+  --ink-faint: #7a7365;
+  --ink-ghost: #a49b8a;
+
+  /* Marks */
+  --stamp: #a33326;
+  --stamp-soft: #c96a5c;
+  --pencil: #3d5d8a;
+  --pencil-soft: #7f9cc2;
+  --graphite: #5d5a52;
+  --approve: #3f6b45;
+  --caution: #9a6b1f;
+
+  /* Type */
+  --font-page: 'Courier Prime', 'TT2020 Base', 'Courier New', monospace;
+  --font-log: 'TT2020 Base', 'Courier Prime', 'Courier New', monospace;
+  --font-novel: 'Crimson Pro', Literata, Georgia, serif;
+  --font-ui: ui-sans-serif, system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-stamp: 'Special Elite', 'Courier Prime', monospace;
+  --font-mono: 'Courier Prime', ui-monospace, monospace;
+
+  --page-size: 16px;
+  --page-leading: 1.75;
+  --page-measure: 68ch;
+  --page-tracking: 0.01em;
+
+  /* Frame */
+  --rail-w: 268px;
+  --slot-w: 340px;
+  --radius: 2px;      /* paper does not have rounded corners */
+  --hair: 1px solid var(--paper-edge);
+  --hair-desk: 1px solid var(--desk-line);
+
+  --shadow-page: 0 1px 0 var(--paper-edge), 0 12px 28px rgba(0, 0, 0, 0.16);
+  --shadow-pop: 0 6px 20px rgba(0, 0, 0, 0.28);
+
+  --step: 8px;
+}

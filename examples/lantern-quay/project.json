@@ -1,0 +1,12 @@
+{
+  "schema": "story-editor/project@1",
+  "id": "lantern-quay",
+  "title": "Lantern Quay",
+  "log": "workspace/lantern_quay.jsonl",
+  "integrations": {
+    "sillytavern": {"chat": null, "characters_dir": null},
+    "lorebooks": ["worlds/lantern_quay_lorebook.json"],
+    "drive": {"remote": null},
+    "authored_spine_md": null
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "story-editor/mini_spine@1",
+  "title": "Lantern Quay",
+  "characters": ["Wren", "Ilse", "Varga"],
+  "lore_paths": ["worlds/lantern_quay_lorebook.json"],
+  "initial_state": [
+    "Wren and Ilse wait on the quay for the Gull's Due."
+  ],
+  "end_state": [
+    "The smuggling is exposed and Varga is caught or flees."
+  ],
+  "beats": [
+    {
+      "id": 1,
+      "label": "Q1",
+      "title": "The late ship",
+      "criteria": ["The Gull's Due arrives late", "a cask sounds like paper, not wine"],
+      "location": "Lantern Quay",
+      "speakers": ["Wren", "Narrator"],
+      "story_date": "Thursday, October 4, 1792",
+      "story_time": "7:40 PM",
+      "notes": "Varga notices Wren listening."
+    },
+    {
+      "id": 2,
+      "label": "Q2",
+      "title": "The broken seal",
+      "criteria": ["the seal on the manifest is a survey seal", "Ilse asks Wren to choose"],
+      "location": "The Harbour Office",
+      "speakers": ["Wren", "Narrator"],
+      "story_date": "Thursday, October 4, 1792",
+      "story_time": "11:15 PM",
+      "notes": "The forgery is proved by procedure, not intuition."
+    },
+    {
+      "id": 3,
+      "label": "Q3",
+      "title": "The bell",
+      "criteria": ["Varga makes Wren an offer", "Wren rings the bell"],
+      "location": "The Lighthouse Gallery",
+      "speakers": ["Wren", "Narrator"],
+      "story_date": "Friday, October 5, 1792",
+      "story_time": "5:50 AM",
+      "notes": "Varga is not a monster; he is a merchant who lost a bet."
+    }
+  ]
+}

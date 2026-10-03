@@ -1,0 +1,83 @@
+/* Bundled faces. Self-hosted, no CDN: the engine works offline and so does its
+ * typography. Every family here is OFL or Apache 2.0 and ships its licence
+ * alongside it in public/fonts/<family>/.
+ *
+ * Faces licensed for personal use only are deliberately absent — those are
+ * named in the picker and resolved from the OS, so nothing unredistributable
+ * ever enters this repo. See tools/fetch_fonts.sh. */
+
+/* Courier Prime — the default page face. A real italic and a real bold, which
+ * a manuscript leaning on emphasis constantly cannot do without. */
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('/app/fonts/courier-prime/CourierPrime-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('/app/fonts/courier-prime/CourierPrime-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('/app/fonts/courier-prime/CourierPrime-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Courier Prime';
+  src: url('/app/fonts/courier-prime/CourierPrime-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* TT2020 — randomised glyph variants, so a repeated letter never looks stamped
+ * from the same die. The irregularity the personal-use faces are loved for,
+ * under a licence that lets us ship it. */
+@font-face {
+  font-family: 'TT2020 Base';
+  src: url('/app/fonts/tt2020/TT2020Base-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TT2020 Base';
+  src: url('/app/fonts/tt2020/TT2020Base-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Special Elite — distressed display. Stamps, labels, chapter plates. It has no
+ * italic, so it is never offered as a page face. */
+@font-face {
+  font-family: 'Special Elite';
+  src: url('/app/fonts/special-elite/SpecialElite-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Crimson Pro — for when the manuscript should read as a book rather than a
+ * draft. Variable weight, real italic. */
+@font-face {
+  font-family: 'Crimson Pro';
+  src: url('/app/fonts/crimson-pro/CrimsonPro-var.ttf') format('truetype-variations');
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Crimson Pro';
+  src: url('/app/fonts/crimson-pro/CrimsonPro-Italic-var.ttf') format('truetype-variations');
+  font-weight: 200 900;
+  font-style: italic;
+  font-display: swap;
+}

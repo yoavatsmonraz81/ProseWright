@@ -1,0 +1,156 @@
+{
+  "schema": "story-editor/characters@1",
+  "note": "Test-fixture bibles for the Sherlock Holmes 'A Scandal in Bohemia' excerpt. Authored to BIBLE_TEMPLATE.md tier standards: forbidden_phrasings are Tier 1/2 (vocabulary/pattern prohibitions) so `canon test` can demonstrably distinguish a violating rewrite from a compliant one. This file proves the canon layer works on a non-SillyTavern story.",
+  "characters": {
+    "holmes": {
+      "aliases": ["Holmes", "Sherlock Holmes", "Mr. Holmes", "Sherlock"],
+      "label": "Sherlock Holmes — consulting detective",
+      "role": "The world's first consulting detective. Reasons from observed physical detail to certain conclusion. Treats emotion as a flaw in the reasoning instrument.",
+      "channel": "Physical detail and inference. He observes what others merely see — the cut on a shoe-sole, iodoform on a sleeve, a monogram woven into note-paper — and reasons from it to a conclusion stated as fact.",
+      "bias_lens": "He reads every person and object as a data set to be solved. Sentiment is noise he filters out; he distrusts any conclusion reached before the evidence is in. His pride is in the method, not in being right.",
+      "voice_rules": [
+        "States deductions as conclusions with their evidentiary basis: 'I see it, I deduce it' — never as guesses.",
+        "Uses precise, slightly archaic, confident diction: 'It is simplicity itself,' 'Quite so,' 'I have no data yet.'",
+        "Addresses Watson directly and a little didactically: 'You see, but you do not observe.'",
+        "Cool and unhurried even when the matter is grave — the temperature never rises with the stakes."
+      ],
+      "forbidden_phrasings": [
+        "Never expresses romantic or sentimental feeling. Emotion is abhorrent to his cold, precise mind. He does not say 'I feel,' 'I love,' 'my heart,' or 'it moved me.'",
+        "Never theorizes ahead of the evidence. He does not say 'I suspect,' 'I have a hunch,' 'it must surely be' before data is in — he says 'I have no data yet; it is a capital mistake to theorize before one has data.'",
+        "Never hedges or undercuts his own reasoning with 'maybe,' 'I could be wrong,' or 'I'm not sure' once he has the facts.",
+        "Never reaches for fate, luck, or intuition as an explanation — every conclusion has a traceable physical basis."
+      ],
+      "aesthetic_rules": [
+        "His cleverness shows through the chain of reasoning, not through self-praise.",
+        "Dialogue carries the deduction; keep narration of his inner state minimal — he is a surface of pure method."
+      ],
+      "canonical_facts": [
+        "He is a consulting detective who lives at 221B Baker Street.",
+        "He knows there are exactly seventeen steps from the hall up to his room, because he has both seen and observed them.",
+        "He keeps an index of people and facts which he consults for reference.",
+        "He regards Irene Adler as 'the woman' — out of intellectual respect, never love.",
+        "He shares his rooms and cases with his friend Dr. Watson."
+      ],
+      "relationship_notes": {
+        "Watson": "His friend, chronicler, and foil. Holmes explains his method to Watson and is mildly didactic, but the regard is genuine.",
+        "King": "A client. Holmes is unimpressed by rank and addresses him as an equal — 'It is both, or none.'",
+        "Irene Adler": "The one adversary who outwits him. He respects her intellect absolutely and without sentiment."
+      },
+      "seed_queries": [
+        "Holmes making a deduction from a small physical detail — a shoe, a sleeve, note-paper",
+        "Holmes explaining the difference between seeing and observing to Watson",
+        "Holmes refusing to theorize before he has data"
+      ]
+    },
+    "watson": {
+      "aliases": ["Watson", "Dr. Watson", "John Watson", "Doctor", "user"],
+      "label": "Dr. John Watson — narrator and companion",
+      "role": "Holmes's friend, flatmate-turned-visitor, and chronicler. A former army doctor, recently married and returned to private practice. He narrates the cases and stands in for the reader's astonishment.",
+      "channel": "Human and narrative. He notices people's character, mood, and circumstance, and records events as a story with a beginning and end. He sees the same details Holmes does but does not assemble them.",
+      "bias_lens": "He reads Holmes with admiration and the world with a warm, sociable, slightly sentimental eye. Where Holmes filters out feeling, Watson foregrounds it.",
+      "voice_rules": [
+        "Writes in the first person as both narrator and participant: 'I had seen little of Holmes lately.'",
+        "Warm, plain, literate Victorian prose — readable and unshowy.",
+        "Openly admiring of Holmes and candid about his own bafflement: 'I am baffled until you explain your process.'",
+        "Reports dialogue and scene faithfully; he is a reliable witness."
+      ],
+      "forbidden_phrasings": [
+        "Never produces a Holmesian chain of deduction himself. He does not say 'I deduced,' 'obviously, therefore,' or solve the puzzle — he reports being baffled and waits for Holmes to explain.",
+        "Never cold, clinical, or dismissive about human feeling — he is sentimental and sociable where Holmes is not. He does not call emotion 'abhorrent' or 'noise.'",
+        "Never narrates from an omniscient remove — he writes only what he himself witnessed or was told.",
+        "Never claims Holmes's conclusions as his own insight."
+      ],
+      "aesthetic_rules": [
+        "His warmth and ordinariness are the contrast that makes Holmes legible — keep him human-scaled.",
+        "He can admire without fawning; the affection is steady, not gushing."
+      ],
+      "canonical_facts": [
+        "He is a medical doctor, recently married, and has returned to private practice.",
+        "He served as an army surgeon before his Baker Street days.",
+        "He is the narrator of Holmes's cases and frequently assists him.",
+        "He has put on seven and a half pounds since Holmes last saw him."
+      ],
+      "relationship_notes": {
+        "Holmes": "His closest friend and the subject of his writing. Watson admires Holmes's powers and is the audience for his deductions.",
+        "King": "A client he observes with a doctor's and a narrator's interest."
+      },
+      "seed_queries": [
+        "Watson narrating his reunion with Holmes and his own domestic happiness",
+        "Watson admitting he is baffled by Holmes's reasoning",
+        "Watson describing a visitor or scene as a faithful witness"
+      ]
+    },
+    "king": {
+      "aliases": ["King", "the King", "Count von Kramm", "King of Bohemia", "Wilhelm von Ormstein", "his Majesty"],
+      "label": "The King of Bohemia — Wilhelm von Ormstein",
+      "role": "Hereditary King of Bohemia, of the House of Ormstein, who arrives masked under the alias Count von Kramm. He has come incognito to recover a compromising photograph held by Irene Adler before his royal betrothal is announced.",
+      "channel": "Rank and reputation. He perceives the world in terms of honour, scandal, and dynastic consequence. His own exposure is the only stake he can fully see.",
+      "bias_lens": "He reads the affair as a threat to the crown and to European history, not as a personal failing he must own. He is accustomed to command and expects money and power to solve the problem.",
+      "voice_rules": [
+        "Speaks with aristocratic formality and continental flourish: 'I should much prefer to communicate with you alone.'",
+        "Imperious even when asking for help — he commissions, he does not plead as an equal.",
+        "Melodramatic and exclamatory about the scandal: 'I was mad, insane!' 'Oh dear! That is very bad!'",
+        "Guards his identity at first, conceding it only when Holmes makes concealment pointless."
+      ],
+      "forbidden_phrasings": [
+        "Never humble or self-effacing. He does not apologize as an equal, beg, or say 'I am sorry to trouble you' — he speaks as a sovereign even while seeking help.",
+        "Never plain, colloquial, or modern in diction. He does not use casual phrasing like 'okay,' 'no big deal,' 'thanks a lot,' or working-class idiom.",
+        "Never coolly analytical about the scandal — he does not reason it out calmly the way Holmes would; he is agitated and exclamatory about it.",
+        "Never frank about his own fault without dressing it in grandeur — even his confession ('I was mad') is theatrical, not contrite."
+      ],
+      "aesthetic_rules": [
+        "His grandeur and his panic should both be visible — a powerful man undone by a small rectangle of paper.",
+        "Period-formal register throughout; the mask (literal and social) is part of his presence."
+      ],
+      "canonical_facts": [
+        "He is Wilhelm von Ormstein, hereditary King of Bohemia, House of Ormstein.",
+        "He arrives incognito, masked, under the alias 'Count von Kramm.'",
+        "Five years ago in Warsaw he became entangled with Irene Adler and wrote her compromising letters.",
+        "He is betrothed to the Princess Clotilde Lothman von Saxe-Meningen.",
+        "Irene Adler holds a photograph of the King and herself together and threatens to send it to the Princess's family."
+      ],
+      "relationship_notes": {
+        "Holmes": "The expert he has come to hire; he is unused to consulting anyone in person and resents the necessity.",
+        "Irene Adler": "His former lover, now the holder of the evidence that could ruin his marriage. He fears and underestimates her.",
+        "Watson": "An unknown quantity whose discretion he questions before he will speak."
+      },
+      "seed_queries": [
+        "the masked King arriving and guarding his identity before Holmes",
+        "the King describing the compromising photograph and his betrothal",
+        "the King's agitated, imperious manner when speaking of the scandal"
+      ]
+    },
+    "irene": {
+      "aliases": ["Irene Adler", "Irene", "the woman", "Miss Adler"],
+      "label": "Irene Adler — 'the woman'",
+      "role": "An opera singer and adventuress who holds the photograph the King wants back. Does not speak in this excerpt, but is the story's center of gravity and the one person to outwit Holmes.",
+      "channel": "Strategic foresight. She anticipates how powerful men will move against her and prepares accordingly.",
+      "bias_lens": "She reads the King's power clearly and is not intimidated by it; she holds the photograph as a shield, not a weapon of malice.",
+      "voice_rules": [
+        "NOTE: Irene does not have spoken turns in this excerpt. Voice rules are provisional, for any inject that introduces her.",
+        "Composed, intelligent, and self-possessed — never flustered."
+      ],
+      "forbidden_phrasings": [
+        "Never a helpless victim or a simple villain — she is neither.",
+        "Never naive about the King's power or her own danger."
+      ],
+      "aesthetic_rules": [
+        "Her intelligence is the equal of Holmes's; render her with that respect."
+      ],
+      "canonical_facts": [
+        "She was born in New Jersey in 1858.",
+        "She is a contralto who sang at La Scala and was prima donna of the Imperial Opera of Warsaw.",
+        "She has retired from the operatic stage and lives in London at Briony Lodge, Serpentine Avenue, St. John's Wood.",
+        "She holds a photograph of herself and the King of Bohemia together."
+      ],
+      "relationship_notes": {
+        "King": "Her former lover, whose marriage she can disrupt with the photograph.",
+        "Holmes": "The detective hired against her; the only adversary who regards her as his intellectual equal."
+      },
+      "seed_queries": [
+        "Irene Adler's history as an opera singer and her retirement to London",
+        "Irene Adler holding the photograph as protection against the King"
+      ]
+    }
+  }
+}

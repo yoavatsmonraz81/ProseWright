@@ -1,0 +1,25 @@
+{
+  "wren": {
+    "secrets": [],
+    "facts": [
+      "The Gull's Due is never late.",
+      "Survey charts of the reef passages are sealed with a broken-north compass rose and may be held only by naval pilots."
+    ]
+  },
+  "ilse": {
+    "secrets": [],
+    "facts": [
+      "Every arrival is entered in the ledger and weighed before goods leave the quay."
+    ]
+  },
+  "varga": {
+    "secrets": [
+      "charts_in_casks",
+      "brest_buyer",
+      "sand_ballast"
+    ],
+    "facts": [
+      "His casks hold stolen survey charts, weighted with sand."
+    ]
+  }
+}

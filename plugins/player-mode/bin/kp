@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Launcher for the player-mode engine (stdlib Python only).
+here="$(cd "$(dirname "$(readlink -f "$0")")/.." && pwd)"
+PYTHONPATH="$here/engine${PYTHONPATH:+:$PYTHONPATH}" exec python3 -m kp.cli "$@"

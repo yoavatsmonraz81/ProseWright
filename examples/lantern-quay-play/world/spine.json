@@ -1,0 +1,68 @@
+[
+  {
+    "id": "quay_at_dusk",
+    "title": "Dusk · Lantern Quay",
+    "time": "a quarter to eight in the evening",
+    "location": "the end of Lantern Quay",
+    "stamp": {
+      "clock": "7:40 PM",
+      "date": "Thursday, October 4, 1792",
+      "place": "Lantern Quay"
+    },
+    "setting": "The lamps along the quay are coming on one at a time. The tide is turning. Ilse stands at the end of the quay with the harbour ledger under her arm, counting masts; Wren hugs a satchel of rolled charts. The Gull's Due is late, and she is never late.",
+    "function": "the hook: something about the late ship's cargo is wrong, and the man who brought it notices Wren noticing",
+    "question": "What is the Gull's Due carrying?",
+    "dwell_min": 4,
+    "ladder": [
+      "the late ship comes in without a pilot; Varga comes down the gangway with his manifest",
+      "the casks come ashore, and something about them doesn't fit",
+      "Varga notices Wren's attention, and makes a pleasant remark that is also a warning"
+    ],
+    "exit": "the casks are on the quay and the sisters go back to the harbour office → cut to night",
+    "texture": "tar, cold weed, lamp smoke, the slap of water on pilings"
+  },
+  {
+    "id": "harbour_office_night",
+    "title": "Night · the Harbour Office",
+    "time": "a quarter past eleven at night",
+    "location": "the harbour office",
+    "stamp": {
+      "clock": "11:15 PM",
+      "date": "Thursday, October 4, 1792",
+      "place": "The Harbour Office"
+    },
+    "setting": "Lamp oil and damp wool. Ilse has the manifest open beside the ledger. Wren sits on the high stool by the window, where the lighthouse beam sweeps the glass every twelve seconds.",
+    "function": "the proof: the forgery is shown by procedure, and the choice is put to Wren",
+    "question": "What do they do with what they know?",
+    "dwell_min": 4,
+    "ladder": [
+      "the numbers agree, which is itself suspicious",
+      "the seal on the manifest is not a manifest seal",
+      "Ilse lays out the risk both ways and asks Wren to choose"
+    ],
+    "exit": "Wren has chosen what to do before morning → cut to dawn",
+    "texture": "the clock, the sweep of the beam, ink, the cold window"
+  },
+  {
+    "id": "lighthouse_dawn",
+    "title": "Dawn · the Lighthouse Gallery",
+    "time": "ten to six in the morning",
+    "location": "the lighthouse gallery",
+    "stamp": {
+      "clock": "5:50 AM",
+      "date": "Friday, October 5, 1792",
+      "place": "The Lighthouse Gallery"
+    },
+    "setting": "From the gallery the harbour lies grey and small below. The lamp behind Wren has just been dimmed for the morning; its brass is still warm. Down on the quay, men are rolling casks onto a cart in the half-dark.",
+    "function": "the climax: Varga's offer, and the bell",
+    "question": "Is Wren for sale?",
+    "dwell_min": 3,
+    "ladder": [
+      "the cart is being loaded below; the gallery door opens behind Wren",
+      "Varga makes his offer, warm and reasonable",
+      "the moment to answer: the bell rope is within reach"
+    ],
+    "exit": "the bell has rung, or Wren has made another choice that ends the night",
+    "texture": "warm brass, cold air, gulls, the creak of cart wheels far below"
+  }
+]

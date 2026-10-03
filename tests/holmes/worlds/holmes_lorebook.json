@@ -1,0 +1,56 @@
+{
+  "entries": {
+    "0": {
+      "uid": "0",
+      "key": ["Irene Adler", "the woman", "Adler"],
+      "keysecondary": [],
+      "comment": "Irene Adler — canon facts",
+      "content": "Irene Adler was born in New Jersey in 1858. She is a contralto opera singer who sang at La Scala and was prima donna of the Imperial Opera of Warsaw before retiring from the stage. She now lives in London at Briony Lodge, Serpentine Avenue, St. John's Wood. She holds a photograph of herself together with the King of Bohemia.",
+      "constant": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "caseSensitive": false,
+      "matchWholeWords": false,
+      "disable": false
+    },
+    "1": {
+      "uid": "1",
+      "key": ["King", "Bohemia", "Ormstein", "von Kramm"],
+      "keysecondary": [],
+      "comment": "The King of Bohemia — canon facts",
+      "content": "The client is Wilhelm Gottsreich Sigismond von Ormstein, Grand Duke of Cassel-Felstein and hereditary King of Bohemia, of the House of Ormstein. He arrives incognito and masked under the alias 'Count von Kramm.' He is betrothed to the Princess Clotilde Lothman von Saxe-Meningen. Five years ago in Warsaw he became entangled with Irene Adler.",
+      "constant": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "caseSensitive": false,
+      "matchWholeWords": false,
+      "disable": false
+    },
+    "2": {
+      "uid": "2",
+      "key": ["Holmes", "Baker Street", "deduce", "observe"],
+      "keysecondary": [],
+      "comment": "Sherlock Holmes — canon facts",
+      "content": "Sherlock Holmes is a consulting detective who lives at 221B Baker Street. There are seventeen steps leading from the hall up to his room. He keeps an index of people and facts. He reasons from observed physical detail and refuses to theorize before he has data. He regards Irene Adler as 'the woman' out of intellectual respect.",
+      "constant": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "caseSensitive": false,
+      "matchWholeWords": false,
+      "disable": false
+    },
+    "3": {
+      "uid": "3",
+      "key": ["photograph", "letters", "compromising"],
+      "keysecondary": [],
+      "comment": "The compromising photograph",
+      "content": "The object of the case is a photograph showing the King of Bohemia and Irene Adler together, given as a present during their affair. Irene Adler threatens to send it to the family of the King's betrothed, the Princess Clotilde, on the day the betrothal is publicly proclaimed. Holmes is engaged to recover it. It is kept at Briony Lodge.",
+      "constant": false,
+      "selective": false,
+      "selectiveLogic": 0,
+      "caseSensitive": false,
+      "matchWholeWords": false,
+      "disable": false
+    }
+  }
+}

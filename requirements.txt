@@ -1,0 +1,23 @@
+# Phase 0 (loader/backup/pauses/llm/canon) runs on the stdlib alone.
+# Phase 1 adds the three-layer search index. The deps below cover both.
+
+# Phase 1 — the index store. SQLite is stdlib; sqlite-vec is the vector layer.
+sqlite-vec>=0.1.9
+
+# Phase 1 — the embedder. Local & offline (BAAI/bge-small-en-v1.5, 384-dim).
+# sentence-transformers pulls torch + transformers. CPU-only torch is fine for
+# the editor's workload (a few hundred to a few thousand messages).
+sentence-transformers>=5.6.0
+
+# Publication exports (Markdown → HTML for PDF / AO3). Imported when the server starts.
+markdown-it-py>=3.0
+
+# Tests. The engine itself never imports pytest; the suite does.
+pytest>=8.0
+
+# Notes for the future:
+#   - A second model for the reasoning sweep (Phase 3) is planned to live behind
+#     the same OpenAI-compatible client (story_editor/llm.py); no new dep needed.
+
+# Optional: Player mode's direct Anthropic API route (instead of Claude Code).
+# anthropic>=1.0

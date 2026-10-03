@@ -1,0 +1,12 @@
+{
+  "name": "prosewright-plugins",
+  "owner": {"name": "ProseWright"},
+  "description": "Local plugins for ProseWright: player mode (play the story).",
+  "plugins": [
+    {
+      "name": "player-mode",
+      "source": "./player-mode",
+      "description": "Play the story: spine-aware co-authored roleplay on your own Claude Code login."
+    }
+  ]
+}

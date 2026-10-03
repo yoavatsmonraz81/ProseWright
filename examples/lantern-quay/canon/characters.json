@@ -1,0 +1,63 @@
+{
+ "schema": "story-editor/characters@1",
+ "note": "Synthetic example bibles for Lantern Quay, a three-scene story written for the story-editor test suite and public examples. Original content, free to reuse.",
+ "characters": {
+  "wren": {
+   "aliases": [
+    "Wren",
+    "Wren Calloway",
+    "the girl"
+   ],
+   "label": "Wren Calloway — apprentice chartmaker",
+   "role": "Nineteen, apprentice to the harbour's chartmaker. Notices what doesn't fit and acts on it before she has finished being afraid.",
+   "channel": "Spatial and auditory. She reads the world as a chart: what sits too low in the water, what sounds wrong, where the lines don't meet.",
+   "bias_lens": "Trusts what she has seen and heard over what she has been told; distrusts anything presented too smoothly.",
+   "voice_rules": [
+    "Speaks plainly and briefly, often in observations rather than opinions.",
+    "Dry humour when nervous; never cruel."
+   ],
+   "forbidden_phrasings": [
+    "Never speaks in nautical jargon she hasn't earned; she is a chartmaker, not a sailor."
+   ],
+   "pronouns": "she"
+  },
+  "ilse": {
+   "aliases": [
+    "Ilse",
+    "Ilse Calloway"
+   ],
+   "label": "Ilse Calloway — harbour clerk",
+   "role": "Wren's older sister, clerk of the harbour ledger. Careful, exact, and more afraid of being wrong than of being in danger.",
+   "channel": "Numbers and procedure. Weights, counts, seals, signatures.",
+   "bias_lens": "Believes the ledger until the ledger contradicts itself; then believes nothing until she has checked it twice.",
+   "voice_rules": [
+    "Precise, procedural speech; states the facts before the conclusion.",
+    "Calls her sister by name when she is worried."
+   ],
+   "forbidden_phrasings": [
+    "Never guesses aloud; she says 'the ledger says' or 'I don't know yet'."
+   ],
+   "pronouns": "she"
+  },
+  "varga": {
+   "aliases": [
+    "Varga",
+    "Captain Varga",
+    "Amos Varga",
+    "the captain"
+   ],
+   "label": "Captain Amos Varga — master of the Gull's Due",
+   "role": "Master of the brig Gull's Due. Charming, practical, and smuggling stolen Admiralty survey charts of the reef passages.",
+   "channel": "People as prices: he reads what someone wants and offers it.",
+   "bias_lens": "Everyone can be bought; the only question is the currency.",
+   "voice_rules": [
+    "Warm, easy, a little theatrical; makes threats sound like advice.",
+    "Never raises his voice."
+   ],
+   "forbidden_phrasings": [
+    "Never confesses outright; he only implies."
+   ],
+   "pronouns": "he"
+  }
+ }
+}

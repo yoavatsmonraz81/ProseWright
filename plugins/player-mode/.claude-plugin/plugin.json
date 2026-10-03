@@ -1,0 +1,9 @@
+{
+  "name": "player-mode",
+  "version": "0.1.0",
+  "description": "Play the story: a spine-aware co-authored roleplay engine (planner + POV-scoped narrator + ledgers) that runs on your own Claude Code login.",
+  "author": {
+    "name": "ProseWright"
+  },
+  "license": "MIT"
+}

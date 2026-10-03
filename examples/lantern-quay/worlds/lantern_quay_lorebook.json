@@ -1,0 +1,40 @@
+{
+  "entries": {
+    "0": {
+      "uid": 0,
+      "key": ["Lantern Quay", "the quay", "harbour"],
+      "keysecondary": [],
+      "comment": "Lantern Quay — the harbour",
+      "content": "Lantern Quay is a small walled harbour with a lighthouse on the mole. Lamps along the quay are lit by hand each evening. Arrivals are logged in the harbour ledger and weighed at the weigh-house before goods may leave the quay.",
+      "constant": false,
+      "selective": false,
+      "order": 100,
+      "position": 0,
+      "disable": false
+    },
+    "1": {
+      "uid": 1,
+      "key": ["survey seal", "compass rose", "Kettering Point", "reef passages"],
+      "keysecondary": [],
+      "comment": "The survey seal",
+      "content": "The Admiralty survey office at Kettering Point seals its charts of the reef passages with a compass rose whose north point is broken. Only naval pilots may hold such charts; carrying one without warrant is a hanging matter.",
+      "constant": false,
+      "selective": false,
+      "order": 100,
+      "position": 0,
+      "disable": false
+    },
+    "2": {
+      "uid": 2,
+      "key": ["bell", "distress", "three times"],
+      "keysecondary": [],
+      "comment": "The lighthouse bell",
+      "content": "The lighthouse gallery has a bell. Three hard strokes is the harbour's old signal for a ship in distress: it wakes the customs house and the barracks on the mole.",
+      "constant": false,
+      "selective": false,
+      "order": 100,
+      "position": 0,
+      "disable": false
+    }
+  }
+}

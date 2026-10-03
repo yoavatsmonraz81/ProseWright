@@ -1,0 +1,11 @@
+{
+    "display_name": "ProseWright",
+    "loading_order": 50,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "ProseWright",
+    "version": "0.4.3",
+    "auto_update": false
+}

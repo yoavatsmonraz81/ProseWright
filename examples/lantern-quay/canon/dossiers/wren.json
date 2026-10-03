@@ -1,0 +1,42 @@
+{
+  "schema": "story-editor/dossier@1",
+  "character": "wren",
+  "label": "Wren — case file",
+  "portrait": null,
+  "entries": [
+    {
+      "id": "wren-seed-1",
+      "kind": "state",
+      "text": "Apprentice chartmaker; reads the harbour like a chart, by what doesn't fit.",
+      "from_uid": null,
+      "to_uid": null,
+      "from_msg": null,
+      "to_msg": null,
+      "created": "2026-10-01T09:00:00.000Z",
+      "source": "seed"
+    },
+    {
+      "id": "wren-seed-2",
+      "kind": "relationship",
+      "text": "Trusts Ilse's procedure even when she is impatient with it.",
+      "from_uid": null,
+      "to_uid": null,
+      "from_msg": null,
+      "to_msg": null,
+      "created": "2026-10-01T09:00:00.000Z",
+      "source": "seed"
+    },
+    {
+      "id": "wren-seed-3",
+      "kind": "capability",
+      "text": "Can tell a survey seal from a manifest seal at a glance.",
+      "from_uid": null,
+      "to_uid": null,
+      "from_msg": null,
+      "to_msg": null,
+      "created": "2026-10-01T09:00:00.000Z",
+      "source": "seed"
+    }
+  ],
+  "open_items": []
+}

@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node — the UI's toolchain. `app/dist` is deliberately NOT ignored: the built
+# bundle is committed so running the editor never requires node.
+app/node_modules/
+
+# Imported typefaces. The faces worth wanting are mostly licensed for personal
+# use and forbid redistribution, so they stay on the machine that licensed them.
+workspace/fonts/
+
+# Integration harness scratch space.
+tests/phase6/isolated/
+
+# Raw model replies kept for inspection after an operator failed to parse one.
+# Diagnostic residue from one machine's bad roll; nothing depends on it.
+workspace/bad_replies/
+
+# Regenerable chronicle sidecar (python -m story_editor stamps scan).
+workspace/stamps.json
+
+# A project's workspace (manuscript, review queue, history, working log…)
+# travels between machines through Google Drive — the "drive" control in the
+# status bar, story_editor/drive_sync.py — not through git.
+/workspace/
+
+# The bundled example ships its story; everything the editor writes next to
+# it while you try it out (backups, manuscript, history…) stays local.
+examples/*/workspace/*
+!examples/lantern-quay/workspace/lantern_quay.jsonl
+
+# Generated exports.
+/output/
+/tmp/
+
+# Player-mode runtime files: a played example keeps its own state locally.
+examples/*/state/
+examples/*/log.jsonl
+examples/*/status.json
+examples/*/inbox.jsonl

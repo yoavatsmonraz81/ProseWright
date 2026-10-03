@@ -1,0 +1,23 @@
+<div class="story_editor_settings inline-drawer">
+    <div class="inline-drawer-toggle inline-drawer-header">
+        <b>ProseWright</b>
+        <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+    </div>
+    <div class="inline-drawer-content">
+        <label for="se_settings_api_url">Engine API URL</label>
+        <input id="se_settings_api_url" class="text_pole" type="text"
+            placeholder="http://127.0.0.1:8765" />
+        <small>Run <code>python3 -m story_editor serve</code> in your ProseWright folder.</small>
+
+        <label for="se_settings_log_path" class="marginTop10">Working log path (optional)</label>
+        <input id="se_settings_log_path" class="text_pole" type="text"
+            placeholder="leave empty to use server default" />
+        <small>Absolute path to the engine <code>.jsonl</code> copy. Sent as <code>log</code> on each API call.</small>
+
+        <div class="marginTop10">
+            <button type="button" class="menu_button" id="se_settings_test">Test connection</button>
+            <button type="button" class="menu_button" id="se_settings_open">Open panel</button>
+            <span id="se_settings_status" class="se-settings-status"></span>
+        </div>
+    </div>
+</div>
